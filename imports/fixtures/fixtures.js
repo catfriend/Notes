@@ -7,7 +7,7 @@ export const notes = [
     userId: 'userId1'
   }, {
     _id: 'testNote2',
-    title: 'testNote2 title',
+    title: '',
     body: 'a different body',
     updatedAt: 1496257983192,
     userId: 'userId2'

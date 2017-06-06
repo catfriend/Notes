@@ -31,7 +31,7 @@ if (Meteor.isClient) {
     it('should call set on click', function () {
       let wrapper = mount( <NoteListItem note={notes[0]} Session={Session}/> );
       wrapper.find('div').simulate('click');
-      expect(session.set).toHaveBeenCalledWith('selectedNoteId', notes[0]._id);
+      expect(Session.set).toHaveBeenCalledWith('selectedNoteId', notes[0]._id);
     });
 
   });
