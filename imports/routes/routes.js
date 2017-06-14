@@ -8,7 +8,7 @@ import Dashboard from '../ui/Dashboard';
 import NotFound from '../ui/NotFound';
 import Login from '../ui/Login';
 
-const onEnterNotePage = () => {
+const onEnterNotePage = (nextState) => {
   Session.set('selectedNoteId', nextState.params.id);
 };
 const onLeaveNotePage = () => {
