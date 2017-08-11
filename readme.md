@@ -14,6 +14,8 @@ meteor npm install
 meteor
 ```
 
+Setup an account and the notes app is ready to use.
+
 ## Running the Tests
 
 Run the command below and view the reporter at localhost port 3000.
