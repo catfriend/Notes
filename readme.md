@@ -1,1 +1,23 @@
-# This is basic boilerplate for starting a Meteor-React project. An authentication is built in.
+# Notes
+
+This is a notes application built with Meteor and React.
+
+## Getting Started
+
+This app requires you to have Meteor installed on your machine. With Meteor installed clone the repo and run the following:
+
+```
+meteor npm installed
+```
+
+```
+meteor
+```
+
+## Running the Tests
+
+Run the command below and view the reporter at localhost port 3000.
+
+```
+npm test
+```
